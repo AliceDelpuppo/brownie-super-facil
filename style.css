@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    color: #61656D;
+}
+
+body {
+    background-color: white;
+    padding: 0px 262px;
+}
+
+body main {
+    background-color: #F0F0F0;
+    padding: 24px 59px;
+}
+
+.top {
+    background-color: white;
+    padding: 0px 27px;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 12px;
+    margin-bottom: 37px;
+}
+
+.top h1 {
+    color: #FF6A28;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.top h2 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.top .img-brownie {
+    display: flex;
+    margin-top: 14px;
+}
+
+.top .img-brownie img {
+    width: 100%;
+}
+
+.top .info-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.top .info-list .info-item {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 85px;
+}
+
+.top .info-list .info-item .label {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.top .info-list .info-item .value {
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.top .info-list .user {
+    width: 238px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top .info-list .user .info {
+    margin-left: 11px;
+}
+
+.top .info-list .user .info .name {
+    font-size: 14px;
+    color: #FF6A28;
+    font-weight: 500;
+}
+
+.top .info-list .user .info .member-since {
+    font-size: 14px;
+}
+
+.list-block {
+    background-color: white;
+    padding: 0px 27px ;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.list-block .title h3 {
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.list-block .title {
+    display: flex;
+    justify-content: center;
+}
+
+.list-block ul, .list-block ol {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.list-block ul li {
+    margin: 27px;
+    margin-bottom: 10px;
+}
+
+.list-block ol li {
+    margin: 27px;
+    margin-bottom: 20px;
+}
+
+.info-adicionais {
+    background-color: white;
+    padding: 0px 27px ;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+
+.info-adicionais .title {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    background-color: #F0F0F0;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.info-adicionais > p {
+    font-size: 14px;
+}
